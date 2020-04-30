@@ -341,7 +341,7 @@ img {
   justify-content: flex-start;
   flex-wrap: wrap;
   width: 259px;
-  margin-bottom: 44px;
+  margin-bottom: 55px;
   padding-right: 10px;
 }
 
@@ -357,11 +357,11 @@ img {
   display: block;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   border: none;
   background-color: transparent;
   cursor: pointer;
