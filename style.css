@@ -90,8 +90,8 @@ img {
   margin: 0 auto;
   padding: 0 40px;
 }
-.col-4 {
-  flex: 4;
+.col-1 {
+  flex: 1;
 }
 
 .row {
@@ -101,7 +101,7 @@ img {
 .column {
   flex-direction: column;
 }
-.viravnivanie {
+.second line {
   margin-right: 15px;
   text-align: center;
 }
