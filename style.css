@@ -83,6 +83,28 @@ img {
   margin: 0 auto;
   padding: 0 40px;
 }
+.container 2 {
+  display: flex;
+  position: relative;
+  max-width: 1286px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.col-1 {
+  flex: 1;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+.viravnivanie {
+  margin-right: 15px;
+  text-align: center;
+}
 
 .section__wrapper {
   display: flex;
@@ -341,7 +363,7 @@ img {
   justify-content: flex-start;
   flex-wrap: wrap;
   width: 259px;
-  margin-bottom: 55px;
+  margin-bottom: 66px;
   padding-right: 10px;
 }
 
@@ -361,12 +383,15 @@ img {
   font-size: 18px;
   line-height: 21px;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   border: none;
   background-color: transparent;
   cursor: pointer;
   opacity: 0.5;
   transition: opacity 0.3s ease-out;
+}
+.pets__tab--active {
+  color: #fff;
 }
 
 .pets__tab-content {
@@ -503,6 +528,7 @@ img {
 
 .breed-features__image::before {
   content: "";
+  border-radius: 10px;
   position: absolute;
   top: 105px;
   left: 24px;
@@ -562,7 +588,8 @@ img {
   width: 15px;
   height: 15px;
   background-color: #a07b50;
-  border-radius: 360px;  
+  color: #a07b50;
+  border-radius: 10px;
 }
 
 .breed-features__item--cohabitation {
@@ -582,8 +609,8 @@ img {
   top: 411px;
   right: -482px;
   max-width: 201px;
-  font-size: 14px;
-  line-height: 21px;  
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .breed-features__item--instruction::before {
@@ -595,6 +622,8 @@ img {
   top: 584px;
   right: -444px;
   max-width: 160px;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .breed-features__item--weight::before {
@@ -607,6 +636,8 @@ img {
   top: 495px;
   left: -370px;
   text-align: right;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .breed-features__item--appearance::before {
@@ -637,6 +668,7 @@ img {
 
 .advantages {
   background-color: #151313;
+    flex: 1 0 auto;
 }
 
 .advantages__wrapper {
