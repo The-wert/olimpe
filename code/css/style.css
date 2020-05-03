@@ -77,9 +77,6 @@ img {
   clip-path: inset(100%);
 }
 
-
-
-
 .container {
   position: relative;
   max-width: 1286px;
@@ -91,7 +88,7 @@ img {
   position: relative;
   max-width: 1286px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 35px;
 }
 .col-1 {
     flex: 1;
