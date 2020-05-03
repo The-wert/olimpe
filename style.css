@@ -85,7 +85,7 @@ img {
 }
 .container 2 {
   display: flex;
-  position: relative;
+  position: absolute;
   max-width: 1286px;
   margin: 0 auto;
   padding: 0 40px;
