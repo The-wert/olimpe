@@ -77,35 +77,51 @@ img {
   clip-path: inset(100%);
 }
 
+.pets_btn:hover {
+    color: #fff;
+    background-color: blue;
+}
+.pets_tab:hover {
+
+
+}
+
+.gallery_item-img:hover {
+
+}
+
+.breed-features_item:hover {
+
+}
+
 .container {
   position: relative;
   max-width: 1286px;
   margin: 0 auto;
   padding: 0 40px;
 }
-.container 2 {
-  display: flex;
-  position: absolute;
+.container2 {
+    display: flex;
+  position: relative;
   max-width: 1286px;
   margin: 0 auto;
   padding: 0 40px;
 }
-.col-4 {
-  flex: 4;
+.col-1 {
+    flex: 1;
 }
 
 .row {
-  flex-direction: row;
+    flex-direction: row;
 }
 
 .column {
-  flex-direction: column;
+    flex-direction: column;
 }
 .second line {
-  margin-right: 15px;
-  text-align: center;
+    margin-right: 10px;
+    text-align: center;
 }
-
 
 .section__wrapper {
   display: flex;
@@ -153,8 +169,24 @@ img {
   background-size: 600px auto;
   background-position: right 0 bottom 0;
 }
+.breed-features__item--cohabitation2 {
+  font-size: 14px;
+  line-height: 21px;
+  top: 343px;
+  left: -409px;
+  max-width: 255px;
+  margin-right: 10px;
+  text-align: center;
+  color: #fff;
+}
 
-
+.breed-features__item--cohabitation3 {
+  color: #999;
+  text-decoration: none;
+}
+.breed-features__item--cohabitation3:hover {
+  color: #777;
+}
 
 .header__wrapper {
   margin: 0 auto;
@@ -214,7 +246,7 @@ img {
     line-height: 150%;
     margin-bottom: 5px;
     max-width: 277px;
-  }
+    }
 }
 
 .header__title {
@@ -262,7 +294,25 @@ img {
   transition: color 0.3s ease-out, border 0.3s ease-out;
   margin-bottom: 110px;
 }
-
+.header__btn:hover {
+  text-align: center;
+  width: 200px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #a07b50;
+  background-color: #a07b50;
+  text-decoration: none;
+  padding: 18px;
+  transition: color 0.3s ease-out, border 0.3s ease-out;
+  margin-bottom: 110px;
+}
 
 .slider {
   position: relative;
@@ -384,6 +434,21 @@ img {
   font-size: 18px;
   line-height: 21px;
   text-decoration: none;
+  color: #666;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-out;
+}
+.pets__tab:hover {
+  display: block;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
   color: #ffffff;
   border: none;
   background-color: transparent;
@@ -391,6 +456,8 @@ img {
   opacity: 0.5;
   transition: opacity 0.3s ease-out;
 }
+}
+
 .pets__tab--active {
   color: #fff;
 }
@@ -431,6 +498,26 @@ img {
   cursor: pointer;
   border: 1px solid #a07b50;
   background-color: transparent;
+  text-align: center;
+  text-decoration: none;
+  padding: 18px;
+  transition: color 0.3s ease-out, border 0.3s ease-out;
+}
+.pets__btn:hover {
+    margin: 0 auto 40px;
+  margin-bottom: 40px;
+  width: 200px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #a07b50;
+  background-color: #a07b50;
   text-align: center;
   text-decoration: none;
   padding: 18px;
@@ -497,12 +584,42 @@ img {
   line-height: 0;
 }
 
-.gallery__item-img {
+.gallery__item-img1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
+  background: #000;
 }
+.gallery__item-img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  background: #000;
+}
+.gallery__item-img3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  background: 100% #000;
+}
+
+
+.gallery__item-img1:hover {
+    width: 99%;
+    height: 99%;
+}
+.gallery__item-img2:hover {
+    width: 99%;
+    height: 99%;
+}
+.gallery__item-img3:hover {
+    width: 99%;
+    height: 99%;
+}
+
 
 .breed-features {
   background-color: #1f1c1d;
@@ -610,8 +727,8 @@ img {
   top: 411px;
   right: -482px;
   max-width: 201px;
-    font-size: 14px;
-    line-height: 21px;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .breed-features__item--instruction::before {
@@ -656,20 +773,19 @@ img {
     max-width: 132px;
   }
 
-  .breed-features__item--weight {
+.breed-features__item--weight {
     right: -342px;
     max-width: 110px;
-  }
+}
 
-  .breed-features__item--appearance {
+.breed-features__item--appearance {
     left: -295px;
     max-width: 140px;
-  }
 }
 
 .advantages {
   background-color: #151313;
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .advantages__wrapper {
