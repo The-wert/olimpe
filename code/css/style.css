@@ -79,10 +79,6 @@ img {
 
 
 
-.pets_btn:hover {
-    color: #fff;
-    background-color: blue;
-}
 
 .container {
   position: relative;
@@ -446,7 +442,7 @@ img {
   opacity: 0.5;
   transition: opacity 0.3s ease-out;
 }
-}
+
 
 .pets__tab--active {
   color: #fff;
@@ -486,13 +482,18 @@ img {
   display: block;
   overflow: hidden;
   cursor: pointer;
-  border: 1px solid #a07b50;
+  border: 1px solid #F4A460;
   background-color: transparent;
   text-align: center;
   text-decoration: none;
   padding: 18px;
   transition: color 0.3s ease-out, border 0.3s ease-out;
 }
+.pets_btn:hover {
+    color: #C0C0C0;
+    background-color: blue;
+}
+
 .pets__btn:hover {
     margin: 0 auto 40px;
   margin-bottom: 40px;
@@ -506,8 +507,8 @@ img {
   display: block;
   overflow: hidden;
   cursor: pointer;
-  border: 1px solid #a07b50;
-  background-color: #a07b50;
+  border: 1px solid #F4A460;
+  background-color: #F4A460;
   text-align: center;
   text-decoration: none;
   padding: 18px;
