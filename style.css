@@ -90,8 +90,8 @@ img {
   margin: 0 auto;
   padding: 0 40px;
 }
-.col-1 {
-  flex: 1;
+.col-4 {
+  flex: 4;
 }
 
 .row {
