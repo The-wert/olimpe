@@ -77,52 +77,11 @@ img {
   clip-path: inset(100%);
 }
 
-
-
-.pets_btn:hover {
-    color: #fff;
-    background-color: blue;
-}
-.pets_tab:hover {
-
-
-}
-
-.gallery_item-img:hover {
-
-}
-
-.breed-features_item:hover {
-
-}
-
 .container {
   position: relative;
   max-width: 1286px;
   margin: 0 auto;
   padding: 0 40px;
-}
-.container2 {
-    display: flex;
-  position: relative;
-  max-width: 1286px;
-  margin: 0 auto;
-  padding: 0 40px;
-}
-.col-1 {
-    flex: 1;
-}
-
-.row {
-    flex-direction: row;
-}
-
-.column {
-    flex-direction: column;
-}
-.viravnivanie {
-    margin-right: 10px;
-    text-align: center;
 }
 
 .section__wrapper {
@@ -152,7 +111,7 @@ img {
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #a07b50;
+  color: #ffffff;
 }
 
 
@@ -168,27 +127,11 @@ img {
   padding: 0 80px;
   background-image: url("../img/main-cat-desktop@2x.png");
   background-repeat: no-repeat;
-  background-size: 600px auto;
+  background-size: 384px auto;
   background-position: right 0 bottom 0;
 }
-.breed-features__item--cohabitation2 {
-  font-size: 14px;
-  line-height: 21px;
-  top: 343px;
-  left: -409px;
-  max-width: 255px;
-    margin-right: 10px;
-    text-align: center;
-    color: #fff;
-}
 
-.breed-features__item--cohabitation3 {
-    color: #999;
-    text-decoration: none;
-}
-.breed-features__item--cohabitation3:hover {
-    color: #777;
-}
+
 
 .header__wrapper {
   margin: 0 auto;
@@ -235,7 +178,7 @@ img {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  text-align: left;
+  text-align: right;
   color: #a07b50;
   max-width: 330px;
   margin-top: 30px;
@@ -282,7 +225,7 @@ img {
   width: 200px;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 14px;
   color: #ffffff;
@@ -296,25 +239,7 @@ img {
   transition: color 0.3s ease-out, border 0.3s ease-out;
   margin-bottom: 110px;
 }
-.header__btn:hover {
-    text-align: center;
-  width: 200px;
-  font-family: "Roboto", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 14px;
-  color: #000;
-  display: block;
-  overflow: hidden;
-  cursor: pointer;
-  border: 1px solid #a07b50;
-  background-color: #a07b50;
-  text-decoration: none;
-  padding: 18px;
-  transition: color 0.3s ease-out, border 0.3s ease-out;
-  margin-bottom: 110px;
-}
+
 
 .slider {
   position: relative;
@@ -416,7 +341,7 @@ img {
   justify-content: flex-start;
   flex-wrap: wrap;
   width: 259px;
-  margin-bottom: 66px;
+  margin-bottom: 44px;
   padding-right: 10px;
 }
 
@@ -432,22 +357,7 @@ img {
   display: block;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  text-decoration: none;
-  color: #666;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  opacity: 0.5;
-  transition: opacity 0.3s ease-out;
-}
-.pets__tab:hover {
-  display: block;
-  font-family: "Roboto", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   text-decoration: none;
@@ -457,11 +367,6 @@ img {
   cursor: pointer;
   opacity: 0.5;
   transition: opacity 0.3s ease-out;
-}
-}
-
-.pets__tab--active {
-  color: #fff;
 }
 
 .pets__tab-content {
@@ -491,7 +396,7 @@ img {
   width: 200px;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;
@@ -500,26 +405,6 @@ img {
   cursor: pointer;
   border: 1px solid #a07b50;
   background-color: transparent;
-  text-align: center;
-  text-decoration: none;
-  padding: 18px;
-  transition: color 0.3s ease-out, border 0.3s ease-out;
-}
-.pets__btn:hover {
-    margin: 0 auto 40px;
-  margin-bottom: 40px;
-  width: 200px;
-  font-family: "Roboto", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  color: #000;
-  display: block;
-  overflow: hidden;
-  cursor: pointer;
-  border: 1px solid #a07b50;
-  background-color: #a07b50;
   text-align: center;
   text-decoration: none;
   padding: 18px;
@@ -586,42 +471,12 @@ img {
   line-height: 0;
 }
 
-.gallery__item-img1 {
+.gallery__item-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
-    background: #000;
 }
-.gallery__item-img2 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-    background: #000;
-}
-.gallery__item-img3 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-    background: 100% #000;
-}
-
-
-.gallery__item-img1:hover {
-    width: 99%;
-    height: 99%;
-}
-.gallery__item-img2:hover {
-    width: 99%;
-    height: 99%;
-}
-.gallery__item-img3:hover {
-    width: 99%;
-    height: 99%;
-}
-
 
 .breed-features {
   background-color: #1f1c1d;
@@ -648,7 +503,6 @@ img {
 
 .breed-features__image::before {
   content: "";
-  border-radius: 10px;
   position: absolute;
   top: 105px;
   left: 24px;
@@ -674,6 +528,7 @@ img {
 .breed-features__lead {
   margin-bottom: 23px;
   width: 62%;
+  text-transform: uppercase;
 }
 
 .breed-features__list {
@@ -708,8 +563,6 @@ img {
   width: 15px;
   height: 15px;
   background-color: #a07b50;
-    color: #a07b50;
-    border-radius: 10px;
 }
 
 .breed-features__item--cohabitation {
@@ -729,8 +582,6 @@ img {
   top: 411px;
   right: -482px;
   max-width: 201px;
-    font-size: 14px;
-    line-height: 21px;
 }
 
 .breed-features__item--instruction::before {
@@ -742,8 +593,6 @@ img {
   top: 584px;
   right: -444px;
   max-width: 160px;
-    font-size: 14px;
-    line-height: 21px;
 }
 
 .breed-features__item--weight::before {
@@ -756,8 +605,6 @@ img {
   top: 495px;
   left: -370px;
   text-align: right;
-    font-size: 14px;
-    line-height: 21px;
 }
 
 .breed-features__item--appearance::before {
@@ -788,7 +635,6 @@ img {
 
 .advantages {
   background-color: #151313;
-    flex: 1 0 auto;
 }
 
 .advantages__wrapper {
